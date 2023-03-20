@@ -1,6 +1,9 @@
+###     Mateusz Godlewski    ###
+
 import random
 
 """
+
 Zadanie 1
 
 Napisz program, który pobierze od użytkownika liczby rozdzielone przecinkiem a następnie
@@ -24,6 +27,7 @@ print("Największa liczba to:", max_number)
 print("Najmniejsza liczba to:", min_number)
 
 """
+
 Zadanie 2 
 
 Napisz program, który wyświetli plan wycieczki – wybierając losowo z listy 10 największych
@@ -39,16 +43,14 @@ for i, city in enumerate(cities):
     print(f"{i+1}. {city}")
 
 """
+
 Zadanie 3
 
-3. Napisz grę – papier nożyce kamień. (60%)
-  Gra pozwoli wybrać ilość rund.
-  Pozwoli wybrać tryb gry – komputer / 2 graczy (hot seats)
-  Pozwoli nazwać graczy.
-  Zapamięta wynik z każdej rundy.
-  Na koniec wyświetli listę wyników oraz ostateczny wynik z informacją, który gracz wygrał.
-  W opcji hot seats należy użyć getpass:
+Napisz grę – papier nożyce kamień. Gra pozwoli wybrać ilość rund. Pozwoli wybrać tryb gry – komputer / 2 graczy (hot seats)
+Pozwoli nazwać graczy. Zapamięta wynik z każdej rundy.
+Na koniec wyświetli listę wyników oraz ostateczny wynik z informacją, który gracz wygrał. W opcji hot seats należy użyć getpass:
  import getpass
  choice = getpass.getpass('wybór: ')
  print(choice)
+ 
 """
